@@ -131,7 +131,7 @@ if st.button("Submit"):
             st.error("Could not parse one of the responses as JSON.")
             st.text("Gemini raw response:")
             st.code(gemini_raw)
-            st.text("GPT-4o raw response:")
+            st.text("GPT raw response:")
             st.code(gpt_raw)
 
 if "gemini_json" in st.session_state and "gpt_json" in st.session_state:
@@ -167,7 +167,7 @@ if "gemini_json" in st.session_state and "gpt_json" in st.session_state:
         st.markdown(gemini_json["Suggestions for improvement"])
 
     with col2:
-        st.markdown("### GPT-4o Response")
+        st.markdown("### GPT Response")
         st.metric("Match %", gpt_json["Description Match"])
 
         st.markdown("**Missing Keywords:**")
