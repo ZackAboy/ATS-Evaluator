@@ -14,6 +14,11 @@ This app helps job seekers optimize their resumes by comparing them against any 
 - ✍️ Resume improvement suggestions
 
 ---
+## 📺 Demo
+
+![Resume ATS Evaluator Demo](demo/demo.gif)
+
+---
 
 ## 🧠 Tech Stack
 - **Frontend/UI:** Streamlit
