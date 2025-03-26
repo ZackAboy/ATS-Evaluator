@@ -9,7 +9,7 @@
 ## 🚀 Overview
 This app helps job seekers optimize their resumes by comparing them against any job description using the power of Large Language Models (LLMs). It provides:
 - 🔍 ATS-style scoring & keyword analysis
-- 🤖 Side-by-side comparison using **Gemini** and **GPT-4o** (OpenAI)
+- 🤖 Side-by-side comparison using **Gemini** and **GPT**
 - 📄 Cover letter generation
 - ✍️ Resume improvement suggestions
 
@@ -17,7 +17,7 @@ This app helps job seekers optimize their resumes by comparing them against any 
 
 ## 🧠 Tech Stack
 - **Frontend/UI:** Streamlit
-- **LLMs:** Google Gemini 2.0 Flash & OpenAI GPT-4o (via `o3-mini`)
+- **LLMs:** Google Gemini 2.0 Flash & OpenAI GPT-o3-mini
 - **PDF Parsing:** PyPDF2
 - **Environment Config:** python-dotenv
 
@@ -46,14 +46,7 @@ Get ready-to-paste bullet points crafted by LLMs to:
 - Align with industry-standard phrasing
 
 ### 🔀 Model Selector
-Choose between **Gemini** or **GPT-4o** for generation tasks.
-
----
-
-## 📸 App Demo
-> _Add screenshots or GIFs of the UI here once deployed_
-
----
+Choose between **Gemini** or **GPT** for generation tasks.
 
 ## 🛠 Setup Instructions
 
